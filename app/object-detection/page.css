@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.imageSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.previewArea {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    box-shadow: inset 0 0 10px 0 #222222;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.previewArea img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.previewArea .canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.fileUpload {
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.dataSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.dataSection ul {
+    padding-left: 0;
+    width: 100%;
+}
+
+.dataSection ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #99ffb7;
+}
+
+.dataSection ul li p {
+    margin: 10px;
+}
